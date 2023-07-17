@@ -74,3 +74,26 @@ a #menu {
 label,input {
     display: block;
 }
+
+.topics {
+    padding: 20px
+}
+
+.topics h2 {
+    padding-bottom: 20px;
+}
+
+td {
+    vertical-align: top;
+    padding-top: 15px;
+    border-top: 1px solid gray;
+}
+
+td h3 {
+    padding-bottom: 15px;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 20px 0;
+  }
