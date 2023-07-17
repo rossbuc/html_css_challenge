@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+
+#menu {
+    background-color: #000000;
+    color: white;
+}
+
+.home_list {
+    display: flex;
+    justify-content: end;
+}
+
+.home_list li * {
+    color: white;
+}
