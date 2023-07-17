@@ -1,15 +1,21 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: "GDS Transport",arial,sans-serif;
 }
 
-.navigation {
+.nav {
     background-color: black;
     color: white;
     justify-content: space-between;
     align-items: center;
     display: flex;
     flex-wrap: wrap;
+    padding: 5px 20px;
+}
+
+.nav a {
+    display: flex;
 }
 
 ul {
@@ -17,8 +23,13 @@ ul {
 }
 
 #menu {
-    background-color: #000000;
+    background-color: black;
     color: white;
+    align-items: center;
+}
+
+a #menu {
+    font-size: 50px;
 }
 
 .home_list {
@@ -26,6 +37,40 @@ ul {
     justify-content: end;
 }
 
-.home_list li * {
+.home_list li {
+    display: flex;
+}
+
+.blue {
+    background-color:#1d70b8;
     color: white;
+    padding: 40px 30px;
+}
+
+.main_title {
+    padding-bottom: 40px;
+}
+
+.non--bold {
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+.popular--links {
+    background-color: #f3f2f1;
+    padding: 20px;
+    display: flex;
+}
+
+.popular--links ul li{
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.search--bar {
+    float: left;
+}
+
+label,input {
+    display: block;
 }

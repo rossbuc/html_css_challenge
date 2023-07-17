@@ -15,36 +15,43 @@
     />
   </head>
   <body>
-    <header class="navigation">
-      <a href="index.html" id="menu">GOV.UK</a>
-      <ul class="home_list">
-        <li><select name="" id="menu">
-          <option value="" disabled selected>Menu</option>
-          <option value="option_1">Benefits</option>
-          <option value="option_2">Births, death, marriages and care</option>
-          <option value="option_3">Business and self-employed</option>
-          <option value="option_4">Childcare and parenting</option>
-        </select></li>
-        <li><input type="search" name="" id="menu"></li>
-      </ul>
-    </header>
-    <header>
-      <h1>Welcome to GOV.UK</h1>
-      <h2>The best place to find government services and information</h2>
-      <h2>Simpler, clearer, faster</h2>
+    <header class="nav">
+      <a href="index.html" id="menu"><img src="images/govuk_crown.png" alt="The Crown" width="auto" height="30"><h1>GOV.UK</h1></a>
+      <nav>
+        <ul class="home_list">
+          <li class="dropdown">
+            <select class="dropdown-content" id="menu">
+              <option value="" disabled selected>Menu</option>
+              <option value=""><a href="#">Benefits</a></option>
+              <option value=""><a href="#">Births, deaths, marriages and care</a></option>
+              <option value=""><a href="#">Business and self-employed</a></option>
+              <option value=""><a href="#">Childcare and parenting</a></option>
+              <option value=""><a href="#">Citizenship and living in the UK</a></option>
+            </select>
+          <li><input type="search" name="" id="menu"><img src="images/magnifying-glass-2-24.png" alt=""></li>
+        </ul>
+      </nav>
     </header>
 
-    <div>
-      <h2>Popular on GOV.UK</h2>
-      <ul>
-        <li><a href="">Get support with the cost of living</a></li>
-        <li><a href="">Find out about help you can get with your energy bills</a></li>
-        <li><a href="">Find a job</a></li>
-        <li><a href="">Universal Credit account: sign in</a></li>
-        <li><a href="">Check your National Insurance record</a></li>
-      </ul>
+    <header class="blue">
+      <h1 class="main_title">Welcome to GOV.UK</h1>
+      <h3 class="non--bold">The best place to find government services and information</h3>
+      <h3>Simpler, clearer, faster</h3>
+    </header>
 
-      <div>
+    <div class="popular--links">
+      <div class="links--list">
+        <h2>Popular on GOV.UK</h2>
+        <ul>
+          <li><a href="">Get support with the cost of living</a></li>
+          <li><a href="">Find out about help you can get with your energy bills</a></li>
+          <li><a href="">Find a job</a></li>
+          <li><a href="">Universal Credit account: sign in</a></li>
+          <li><a href="">Check your National Insurance record</a></li>
+        </ul>
+      </div>
+
+      <div class="search--bar">
         <label for="search">Search</label>
         <input type="search" name="" id="search">
       </div>
